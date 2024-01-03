@@ -1,0 +1,119 @@
+.logo img{
+    border-radius: 100%;
+    width:100px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+nav a{
+ margin-top: 23%;
+width: 100px;
+display: block;
+padding: 20px 50px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+text-align: center;
+
+
+}
+body{
+ margin: 0px;
+ padding: 0px;
+}
+nav{
+ width: 100%;
+ background:#f2b304;
+ overflow:auto;
+ height: 150px;
+
+}
+nav ul{
+ padding: 0px;
+ margin: 0 0 0 150px;
+ list-style: none;
+}
+nav ul li{
+ float: left;
+}
+
+
+ul li a:hover{
+ color: #4c2c0c;
+}
+.search{
+ width:330px;
+ float: left;
+ margin: left 270px;
+}
+
+
+.srch{
+ width:200px;
+ height: 40px;
+ background: transparent;
+ border:1px solid #4c2c0c;
+ margin-top: 50px;
+ color:#4c2c0c;
+ padding: 10px;
+ border-bottom-left-radius: 5px ;
+ border-top-left-radius: 5px;
+ font-size: 16px;
+ float: left;
+}
+
+.srch:focus{
+ outline: none;
+}
+
+*{
+    margin: 0%;
+    padding:0%
+}
+
+body{
+    background-color: #4c2c0c;
+    
+}
+.name h2{
+   
+    font-family: 'Satisfy', cursive;
+    color:#f2b304;
+
+}
+.name{
+    text-align: center;
+    margin-top:20px ;
+    font-size: 30px;
+    color: white;
+}
+.row{
+    margin-top: 50px;
+    margin-left: 150px;
+    color: white;
+    display: flex;
+}
+.row ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+.navstick{
+    position: sticky;
+    top: 0;
+}
+.col h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+.c2 img{
+    width: 400px;
+    margin-top: 70px;
+}
+.col{
+    width: 500px;
+    height: 300px;
+}

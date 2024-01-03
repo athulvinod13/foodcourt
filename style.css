@@ -1,0 +1,91 @@
+.logo img{
+       border-radius: 100%;
+       width:100px;
+       position:absolute;
+       margin-top: 20px;
+       margin-left: 20px;
+
+}
+.header{
+    position: sticky;
+}
+nav a{
+    margin-top: 23%;
+  width: 100px;
+  display: block;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background:#f2b304;
+    overflow:auto;
+    height: 150px;
+
+}
+nav ul{
+    padding: 0px;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+
+
+nav ul li a:hover{
+    color: #4c2c0c;
+}
+.search{
+    width:330px;
+    float: left;
+    margin: left 270px;
+}
+
+
+.srch{
+    width:200px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #4c2c0c;
+    margin-top: 50px;
+    color:#4c2c0c;
+    padding: 10px;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+    font-size: 16px;
+    float: left;
+}
+
+.srch:focus{
+    outline: none;
+}
+.login{
+    position: absolute;
+   margin-left: 1150px;
+   float: left;
+    color: white;
+}
+.login .a:hover{
+    color: black;
+}
+body{
+    background-image: url(https://i.postimg.cc/mkCBrJNF/Your-paragraph-text-1.png);
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    height: 100vh;
+}
+.header{
+    margin: 0%;
+    padding:0%
+}
